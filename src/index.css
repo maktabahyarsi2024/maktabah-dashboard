@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-table-row-expand-icon {
+  display: none !important;
+}
+
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  button {
+    @apply bg-blue-500 text-white text-lg;
+  }
+
+  ul {
+    /* Tambahkan styling untuk <ul> di sini */
+    list-style-type: disc;
+    /* Contoh: Menggunakan bulatan */
+    margin-left: 1.5rem;
+    /* Contoh: Jarak kiri untuk indentasi */
+  }
+
+  li {
+    /* Tambahkan styling untuk <li> di sini */
+    margin-bottom: 0.5rem;
+    /* Contoh: Jarak antara setiap item */
+  }
+}

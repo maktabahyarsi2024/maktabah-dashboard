@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
+    }
+  ],
+  "env": {
+    "VITE_BASE_URL": "https://api.maktabah-yarsi.my.id"
+  }
+}

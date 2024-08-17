@@ -1,0 +1,17 @@
+export const PATH = {
+  BIBLIOGRAPHY: "/bibliography",
+  CATEGORY: "/category",
+  CONTENT: "/content",
+  DASHBOARD: "/",
+  TABLE_OF_CONTENT: "/table-of-content",
+  CREATE_BIBLIOGRAPHY: "/bibliography/create",
+  CREATE_CATEGORY: "/category/create",
+  CREATE_CONTENT: "/content/create",
+  CREATE_TABLE_OF_CONTENT: "/table-of-content/create",
+  UPDATE_BIBLIOGRAPHY: "/bibliography/update",
+  UPDATE_CATEGORY: "/category/update",
+  UPDATE_CONTENT: "/content/update",
+  UPDATE_TABLE_OF_CONTENT: "/table-of-content/update",
+  USER: "/user",
+  CREATE_USER: "/user/create",
+};
